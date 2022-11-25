@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
 lib64/
 parts/
 sdist/
@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Idea
+.idea/
+
+#tensorflow
+*.pb
+
+# model files
+*.mlmodel
+
+*.DS_Store
+*._.DS_Store
